@@ -33,18 +33,21 @@ body {
   font-size: 1.5em;
 }
 /*style for organization*/
-h4 {
-  font-size: 1.5em;
+/*changed to div*/
+.organization {
+  font-size: 1.25em;
   font-weight: 400;
 }
 /*style for dates*/
-h5 {
+.date {
   font-size: 1em;
   font-style: italic;
+  margin: 2px 0 0 0:
 }
 /*style for paragraph elements*/
-.p {
+.description {
   font-size: 1em;
+  margin: 10px 0 10px 0;
 }
 /*style for my title*/
 .title {
