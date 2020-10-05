@@ -7,7 +7,7 @@ body {
   font-weight: 400;
 }
 /*style for my name*/
-h1 {
+.name {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
