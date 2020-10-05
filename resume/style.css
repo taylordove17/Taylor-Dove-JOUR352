@@ -1,43 +1,45 @@
+/*stykes for my resume*/
+/*styles for basic body elements*/
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em;
   color: #444;
   font-weight: 400;
 }
-
+/*style for my name*/
 h1 {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
 }
-
+/*style for my sections*/
 h2 {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: white;
 }
-
+/*style for my experiences*/
 h3 {
   font-weight: 600;
   font-size: 1.5em;
 }
-
+/*style for organization*/
 h4 {
   font-size: 1.5em;
   font-weight: 400;
 }
-
+/*style for dates*/
 h5 {
   font-size: 1em;
   font-style: italic;
 }
-
+/*style for paragraph elements*/
 .p {
   font-size: 1em;
 }
-
+/*style for my title*/
 .title {
   font-size: 1.5em;
   text-transform: uppercase;
