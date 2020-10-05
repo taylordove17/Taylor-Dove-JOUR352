@@ -6,6 +6,12 @@ body {
   color: #444;
   font-weight: 400;
 }
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
 /*style for my name*/
 .name {
   font-size: 3em;
@@ -16,6 +22,16 @@ body {
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
+}
+/*Contact info*/
+.menu {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/*inline list*/
+.menu li {
+  display: inline;
 }
 /*style for my sections*/
 .sectionheader {
@@ -52,6 +68,23 @@ body {
 /*style for my title*/
 .title {
   font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
   text-transform: uppercase;
   color: #33485e;
+  margin: 20px 0 0 0;
+}
+
+.degrees {
+  margin: 5px 0 0 0;
+}
+
+.do {
+  margin: 5px 0 0 0;
+}
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
