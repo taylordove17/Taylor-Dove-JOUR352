@@ -1,0 +1,15 @@
+/*Largest heading*/
+h1 {
+  font-family: "Freight Text", serif;
+  font-size: 30px;
+}
+/*Subheads*/
+h2 {
+  font-family: Garamond, serif;
+  font-size: 20px;
+}
+/*Body text*/
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
