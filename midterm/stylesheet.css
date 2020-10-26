@@ -1,12 +1,47 @@
+#content {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px;
+}
+#masthead {
+  text-align: center;
+}
+blockquote {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  color: #BF2315;
+  border-top-style: double;
+  border-right-style: double;
+  border-bottom-style: double;
+  border-left-style: solid;
+  border-left-width: thick;
+  border-top-color: #D98B84;
+  border-right-color: #D98B84;
+  border-bottom-color: #D98B84;
+  border-left-color: #BF2315;
+  border-radius: 10px;
+}
+#byline {
+   font-family: Garamond, serif;
+   font-size: 20px;
+   font-style: oblique;
+}
+#related {
+  border-style: solid;
+  border-width: medium;
+  border-color: #BF2315;
+  border-radius: 10px;
+}
 /*Largest heading*/
 h1 {
   font-family: "Freight Text", serif;
-  font-size: 30px;
+  font-size: 50px;
 }
 /*Subheads*/
 h2 {
   font-family: Garamond, serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 /*Body text*/
 p {
