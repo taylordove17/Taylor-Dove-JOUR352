@@ -1,6 +1,7 @@
-#menuitems {
-  font-family: 'Roboto Condensed', sans-serif;
+.custom {
+  font-family: Arial, sans-serif;
 }
-#menuitems:active {
-  background-color: #4299DB;
+.custom .nav-item a,
+.custom .nav-item a:hover {
+    background-color: #00518F;
 }
