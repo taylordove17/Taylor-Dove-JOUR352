@@ -1,7 +1,7 @@
-.custom {
+.custom .nav-item a {
   font-family: Arial, sans-serif;
+  background-color: #4299DB;
 }
-.custom .nav-item a,
 .custom .nav-item a:hover {
     background-color: #00518F;
 }
