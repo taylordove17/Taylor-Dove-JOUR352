@@ -7,3 +7,9 @@
   border-color: #A63E26;
   color: #A63E26;
 }
+.photo {
+  text-align: center;
+}
+img {
+  border-radius: 50%;
+}
