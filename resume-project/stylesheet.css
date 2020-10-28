@@ -1,3 +1,8 @@
+.menu {
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
 .btn {
   border-color: #A63E26;
   color: #A63E26;
