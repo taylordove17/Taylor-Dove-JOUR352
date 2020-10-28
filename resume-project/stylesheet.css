@@ -1,9 +1,6 @@
 #masthead {
   text-align: center;
 }
-.custom .nav-item a {
-  font-family: Arial, sans-serif;
-}
-.custom .nav-item a:hover {
-    background-color: #00518F;
+.navbar-nav a {
+  color: #DA7F45;
 }
