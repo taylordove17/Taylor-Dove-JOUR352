@@ -27,7 +27,13 @@ img {
 }
 .education{
   background-color: #A63E26;
-}
-.fa-graduation-cap {
   color: white;
+  padding: 20px;
+  font-family: Raleway, sans-serif;
+}
+h2 {
+  font-weight: bolder;
+}
+h4 {
+  font-style: italic;
 }
