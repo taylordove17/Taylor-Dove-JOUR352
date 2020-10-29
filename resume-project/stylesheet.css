@@ -38,6 +38,23 @@
 .about-me {
   padding: 20px;
 }
+.experience-skills {
+  padding: 20px;
+}
+.experience {
+  text-align: center;
+  border-style: solid;
+  border-color: #A63E26;
+  border-width: thin;
+  padding: 10px;
+}
+.skills {
+  text-align: center;
+  border-style: solid;
+  border-color: #A63E26;
+  border-width: thin;
+  padding: 10px;
+}
 img {
   border-radius: 50%;
 }
