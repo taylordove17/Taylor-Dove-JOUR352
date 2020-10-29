@@ -11,6 +11,9 @@
   background-color: #BF8A7E;
   border-color: white;
 }
+.btn:disabled {
+  color: #A63E26;
+}
 .photo {
   text-align: center;
   border-radius: 50%;
@@ -70,6 +73,11 @@
 }
 .leadership-head {
   text-align: center;
+}
+.leadership-pics {
+  float:left;
+  width: 20%;
+  padding-right: 10px;
 }
 h2 {
   font-weight: bolder;
