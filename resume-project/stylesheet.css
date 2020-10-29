@@ -47,18 +47,29 @@
   border-style: solid;
   border-color: #A63E26;
   border-width: thin;
-  padding: 10px;
+  padding: 20px;
 }
 .skills {
   text-align: center;
   border-style: solid;
   border-color: #A63E26;
   border-width: thin;
-  padding: 10px;
+  padding: 20px;
+}
+.skill-items {
+  text-align: center;
 }
 .experience-pics {
   float: left;
   width: 10%;
+}
+.leadership {
+  background-color: #A63E26;
+  padding: 20px;
+  color: white;
+}
+.leadership-head {
+  text-align: center;
 }
 h2 {
   font-weight: bolder;
@@ -67,4 +78,7 @@ h2 {
 h4 {
   font-style: italic;
   font-family: Raleway, sans-serif;
+}
+ul {
+  text-align: left;
 }
