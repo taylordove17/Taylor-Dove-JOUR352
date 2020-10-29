@@ -55,6 +55,9 @@
   border-width: thin;
   padding: 10px;
 }
+.experience-pics {
+  float: left;
+}
 img {
   border-radius: 50%;
 }
