@@ -90,3 +90,12 @@ h4 {
 ul {
   text-align: left;
 }
+a {
+  color: #A63E26;
+}
+a:hover {
+  color: #A63E26;
+}
+a:active {
+  color: #BF8A7E;
+}

@@ -13,6 +13,7 @@
   <!-- Bootstrap core CSS and custom CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -23,11 +24,11 @@
 
   <!-- Navigation -->
   <div class="menu">
-    <button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Taylor Dove</button>
-    <button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Education</button>
-    <button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Experience</button>
-    <button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Skills</button>
-    <button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Leadership</button>
+    <a href="#about-me"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Taylor Dove</a></button>
+    <a href="#education"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Education</a></button>
+    <a href="#experience"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Experience</a></button>
+    <a href="#skills"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Skills</a></button>
+    <a href="#leadership"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Leadership</a></button>
   </div>
   <!---image-->
   <div class="photo">
@@ -41,7 +42,7 @@
     <a href="mailto:taylor.a.dove@gmail.com" class="fa fa-envelope-square" target="_blank"></a>
   </div>
   <!---About Me Info-->
-  <div class="about-me">
+  <div class="about-me" id="about-me">
     <div class="container">
       <div class="row">
         <div class="col-lg text-center">
@@ -56,7 +57,7 @@
     </div>
   </div>
   <!--Education Info-->
-<div class="education">
+<div class="education" id="education">
   <div class="container">
     <div class="row">
       <div class="col-lg text-center">
@@ -68,7 +69,8 @@
             <li>Major: Journalism</li>
             <li>Minor: Leadership Studies</li>
             <li>GPA: 3.65</li>
-            <li>College Park Scholars Certificate of Completion</li>
+            <li>College Park Scholars Media, Self & Society Certificate of Completion</li>
+            <li>Recipient of the Capital Gazette Memorial Scholarship 2019-2020</li>
           </ul>
         </div>
       </div>
@@ -79,7 +81,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="experience">
+        <div class="experience" id="experience">
         <h2>Experience</h2>
         <a href="http://www.thecampustrainer.website/" target="_blank"><img class="experience-pics" src="https://raw.githubusercontent.com/taylordove17/Taylor-Dove-JOUR352/master/resume-project/images/the-campus-trainer.jpeg" alt="The Campus Trainer Logo"></a><h5>The Campus Trainer</h5>
         <h6>January 2019 - Current</h6>
@@ -99,7 +101,7 @@
       </div>
     </div>
       <div class="col-md-6">
-        <div class="skills">
+        <div class="skills" id="skills">
         <h2>Skills</h2>
         <div class="skill-items">
         <button type="button" class="btn btn-outline-primary btn-rounded waves-effect" disabled>Adobe Premiere Pro</button><br><br>
@@ -116,7 +118,7 @@
   </div>
 </div>
   <!---Leadership-->
-  <div class="leadership">
+  <div class="leadership" id="leadership">
     <div class="container">
       <div class="row">
         <div class="col-lg text-left">
@@ -126,15 +128,15 @@
             <img class="leadership-pics" src="https://raw.githubusercontent.com/taylordove17/Taylor-Dove-JOUR352/master/resume-project/images/APO.jpeg" alt="Alpha Phi Omega Service"><h4>Alpha Phi Omega - Epsilon Mu</h4>
             <p>I pledged to Alpha Phi Omega in Spring 2020, and have since completed nearly 30 hours of service
             at four levels: fraternity, campus, community and national. I am currently a member of the Grievance, Sunshine and Rush committees,
-            allowing me to gain leadership experience and work alongside my 200 fellow brothers.</p><br>
+            allowing me to gain leadership experience and work alongside my 200 fellow brothers.</p><br><br>
             <h4>Love & Life Section Editor</h4>
             <p>I have been the Love & Live section editor for the Campus Trainer for two semesters. As an editor, I am responsible
               for working with staff writers to brainstorm unique pitch ideas and overcome any obstacles throughout the writing process.
               I have assisted in the completion of over 50 articles in the Love & Life section.</p><br>
             <img class="leadership-pics" src="https://github.com/taylordove17/Taylor-Dove-JOUR352/blob/master/resume-project/images/rha.jpg?raw=true" alt="Resident Hall Association"><h4>Resident Hall Association</h4>
-            <p>I was the vice President of Community Development for the South hill Community in the 2019-2020 school year. I was responsible
+            <p>I was the vice President of Community Development for the South Hill Community in the 2019-2020 school year. I was responsible
               for fostering connections and building community amongst residents living in the South Hill Community. I organized five events
-              for the South hill community, including a Halloween party, a Breast Cancer Awareness drive and a community-wide ice cream social.</p>
+              for the South Hill community, including a Halloween party, a Breast Cancer Awareness drive and a community-wide ice cream social.</p>
         </div>
       </div>
     </div>
@@ -146,7 +148,6 @@
     <div class="container text-center">
       <div class="row justify-content-center">
         <div class="col-md-7">
-        les and you will have a flexbox enabled sticky footer for your website!</p>
         </div>
       </div>
     </div>
@@ -159,6 +160,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
 
 </body>
 
