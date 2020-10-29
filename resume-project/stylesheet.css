@@ -13,6 +13,7 @@
 }
 .photo {
   text-align: center;
+  border-radius: 50%;
 }
 .socials {
   text-align: center;
@@ -57,9 +58,7 @@
 }
 .experience-pics {
   float: left;
-}
-img {
-  border-radius: 50%;
+  width: 10%;
 }
 h2 {
   font-weight: bolder;
