@@ -38,12 +38,15 @@
   background-color: #A63E26;
   color: white;
   padding: 20px;
+  font-family: Raleway, sans-serif;
 }
 .about-me {
   padding: 20px;
+  font-family: Raleway, sans-serif;
 }
 .experience-skills {
   padding: 20px;
+  font-family: Raleway, sans-serif;
 }
 .experience {
   text-align: center;
@@ -70,6 +73,7 @@
   background-color: #A63E26;
   padding: 20px;
   color: white;
+  font-family: Raleway, sans-serif;
 }
 .leadership-head {
   text-align: center;
