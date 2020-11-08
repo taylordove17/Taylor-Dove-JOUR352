@@ -1,0 +1,26 @@
+h1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding: 20px;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+h3 {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  padding: 20px;
+  padding-left: 0px;
+}
+.three-col {
+  padding: 20px;
+}
+.col-small {
+  padding: 20px;
+}
+.photo {
+  width: 25%;
+}
