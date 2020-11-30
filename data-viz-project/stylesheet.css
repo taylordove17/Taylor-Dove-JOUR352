@@ -1,7 +1,22 @@
+.body {
+  font-family: "Catoro", serif;
+}
 .related {
   text-align: right;
+  font-family: "Castoro", serif;
 }
 .related-pics {
   width: 15%;
   display: inline;
+}
+.millwood {
+  width: 80%;
+  padding-bottom: 2%;
+}
+.pullquote {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  border: double;
+  border-color: #8C1414;
 }
