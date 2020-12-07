@@ -5,10 +5,13 @@
   font-family: "Catoro", serif;
 }
 .related {
-  text-align: center;
+  text-align: right;
   font-family: "Castoro", serif;
-  border: solid;
-  border-color: #8C1414;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-left: solid;
+  border-left-color: #8C1414;
 }
 .related-pics {
   width: 15%;
@@ -24,8 +27,8 @@
   font-family: "Oswald", sans-serif;
   color: #8C1414;
 }
-.pagebreak {
-  background-color: #8C1414;
+hr.solid {
+  border-top: 3px solid #8C1414;
 }
 #sticky-footer{
   background-color: #8C1414;
