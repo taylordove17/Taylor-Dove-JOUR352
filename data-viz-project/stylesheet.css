@@ -1,3 +1,8 @@
+#button {
+  border-color: #8C1414;
+  color: #8C1414;
+  background-color: white;
+}
 .intro {
   font-family: "Catoro", serif;
 }
@@ -14,8 +19,7 @@
   border-left-color: #8C1414;
 }
 .related-pics {
-  width: 15%;
-  display: inline;
+  width: 25%;
 }
 .millwood {
   width: 80%;
